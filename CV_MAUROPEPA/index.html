@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV-MAUROPEPA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mauro Exequiel Pepa</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">PERFIL</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/FOTO.png" alt="">
+            </div>
+            <h1>MAURO PEPA</h1>
+            <h2>DISEÑADOR DIGITAL - DEVELOPER</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/mauropepa97/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mauro-pepa-02b57a194/"  target="_blank"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                <a href="https://github.com/PEPAXD?tab=stars" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://drive.google.com/drive/folders/1v8LlLY3Q0ejf55X_jtE6Mp9AWPZAGGdS?usp=sharing" target="_blank"><i class="fa-brands fa-google-drive"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>PERFIL</h2>
+            <p>Soy un apasionado diseñador digital y programador junior con una sólida formación en ambos campos. <br> Mi enfoque multidisciplinario me permite combinar habilidades creativas con conocimientos técnicos para crear soluciones innovadoras y visualmente atractivas.
+            <br>En el área del diseño digital, mi especialidad se encuentra en la creación de contenido digital y en la Post-Producción multimedia, donde he trabajado en proyectos de diseño y renderizado 3D.
+            <br>Por otro lado, como programador junior, tengo sólidos conocimientos en múltiples lenguajes de programación como Java, Python, C#, JavaScript, HTML y CSS.
+            <br>Mi principal objetivo es combinar mis habilidades de diseño y programación para desarrollar soluciones que proporcionen experiencias atractivas y funcionales para los usuarios. Soy un apasionado por la tecnología y siempre estoy dispuesto a enfrentar nuevos desafios, buscando siempre mejorar mis habilidades técnicas y aprender nuevas tecnologías</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            06-08-1997
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 9 3541 628524
+                        </li>
+                        <li>
+                            <strong>Estado Civil</strong>
+                            Soltero
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            mauropepa1997oficial@gmail.com
+                        </li>
+                        <li>
+                            <strong>Localidad</strong>
+                            Villa Carlos Paz - Cordoba, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>EN BUSQUEDA DE TRABAJO</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Hoobys</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-guitar"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-paintbrush"></i>
+                            <span>ARTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-print"></i>
+                            <span>DISEÑO 3D</span>
+                        </div>
+                        <button>
+                            <a href="CVPEPA.rar" download>Descargar CV 
+                            <i class="fa-solid fa-download"></i>
+                            <span class="overlay"></span></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Digital Skills</h3>
+                    <div class="skill">
+                        <span>Post-Producción y Renderizado</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Modelado y Generalidad 3D</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño Digital y Marketing</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño UI/UX</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Herramientas Digitales</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Animacion y Diseño Interactivo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Developer Skills</h3>
+                    <div class="skill">
+                        <span>Hardware - SO - Software</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Redes y Seguridad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Programacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Desarrollo Web</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Desarrollo mobil</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> Desarrollo VideoJuegos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CERTIFICADOS Y EXPERIENCIA</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Certificados y Cursos</h3>
+                    <div class="item izq">
+                        
+                        <span class="casa">Hartford Institute</span>
+                        <h4>Ingles intensivo B2</h4>
+                        <p>Intermediate level on the global scale of English (B2)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">UTN - FRVM</span>
+                        <h4>Diplomatura Programación en Java</h4>
+                        <p>Logica, Algoritmos, Estructuras de control y programacion, Algoritmos de
+                            búsqueda, Desarrollo de Software, he interfaces</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Mastermind</span>
+                        <h4>Cyber-Security</h4>
+                        <p>Networking, OS, Popular Suites, RedTeam, BlueTeam, PurpleTeam,
+                            Security Skills, Hacking Tools, Attack Types, Cryptography</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Mastermind</span>
+                        <h4>Hardware-SO-GitHub</h4>
+                        <p>Ensamble y mantenimiento de ordenadores, Comandos Github, bash, 
+                            Linux <br>[comandos, Scripting, Sistemas basados en Linux]
+                            Ubuntu, Mint, Arch, Raspberry Pi-OS, Kali, Parrot</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Udemy - Platzy - CoderHouse</span>
+                        <h4>Python, C++, C#, javascript, HTML y CSS.</h4>
+                        <p>Conceptos basicos, Diseño de interfaces, <br>logica de programacion</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Udemy - Domestika </span>
+                        <h4>Diseño Gráfico, Post-Producción y Renderizado</h4>
+                        <p>Photoshop, Ilustrator, Premiere, After Effects</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Control3D</span>
+                        <h4>Impresion y Modelado 3D</h4>
+                        <p>Fusion360, 3dsMax, Blender, Programación Marlin, Octroprint, 
+                            Modelado 3d <br>[organico he inorganico]</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        
+                        <span class="casa">Municipalidad <br>Dirección de ambiente</span>
+                        <h4>Productor audio-visual</h4>
+                        <p>Diseño digital, Redes Sociales, Publicidad, <br>Post-Producción y
+                            renderizado multimedia</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        
+                        <span class="casa">Prisma <br>Impresiones y Diseños 3D</span>
+                        <h4>Técnico en Impresoras FDM</h4>
+                        <p>Mantenimiento y reparación, <br>Diseño y producción de modelos 3D</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        
+                        <span class="casa">Jardín Estrellitas</span>
+                        <h4>Diseñador Digital</h4>
+                        <p>Diseño grafico, Administración, <br>Publicidad, Post-Producción</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <span class="casa">Elevan Industria Metalúrgica SRL</span>
+                        <h4>Pasantia Tecnica</h4>
+                        <p>Control, embalaje, diseño y mecanizado CNC</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO DIGITAL</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt=""> 
+                    <div class="overlay" id="modelado3D">
+                        <h3>Generalidad y <br>modelado 3D</h3>                 
+                        <p></p>       
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay" id="impresion3D">
+                        <h3>Impresiones y <br>diseños 3D</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay" id="edicionVideos">
+                        <h3>Post-Producción multimedia</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg"  alt="">
+                    <div class="overlay" id="programacion">
+                        <h3>Proyectos <br> programacion</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay" id="marketing">
+                        <h3> Diseños Publicitarios <br>y marketing</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg"  alt="">
+                    <div class="overlay" id="arte">
+                        <h3>Arte digital <br>y tradicional</h3>
+                        <p></p>
+                    </div>
+                </div>
+            <!-- SLIDER IMAGE-->
+            <div class="Gallery">
+                <div class="Slide">
+                    <div class="slide active">
+                        <img src="" alt="" data-image-index="0">
+                    </div>
+                    <div class="slide">
+                        <img src="" alt="" data-image-index="1">
+                    </div>
+                    <div class="slide">
+                        <img src="" alt="" data-image-index="2">
+                    </div>
+                    <div class="slide">
+                        <img src="" alt="" data-image-index="3">
+                    </div>
+                    <div class="slide">
+                        <img src="" alt="" data-image-index="4">
+                    </div>
+                    <div class="navigation">
+                        <i class="fas fa-chevron-left prev-btn"></i>
+                        <i class="fas fa-chevron-right next-btn"></i>
+                        
+                    </div>
+                    <div class="navigation-visibility">
+                        <div class="slide-icon active"></div>
+                        <div class="slide-icon"></div>
+                        <div class="slide-icon"></div>
+                        <div class="slide-icon"></div>
+                        <div class="slide-icon"></div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    const nextBtn = document.querySelector(".next-btn");
+                    const prevBtn = document.querySelector(".prev-btn");
+                    const slides = document.querySelectorAll(".slide");
+                    const slideIcons = document.querySelectorAll(".slide-icon");
+                    const numberOfSlides = slides.length;
+                    var slideNumber = 0;
+
+                    //image slider next button
+                    nextBtn.addEventListener("click", () => {
+                        slides.forEach((slide) => {
+                            slide.classList.remove("active")
+                        })
+                        slideIcons.forEach((slideIcons) => {
+                            slideIcons.classList.remove("active")
+                        })
+
+                        slideNumber++;
+                        if(slideNumber > (numberOfSlides -1)){
+                            slideNumber = 0;
+                        }
+                        slides[slideNumber].classList.add("active");
+                        slideIcons[slideNumber].classList.add("active");
+                    });
+
+                    //image slider previous button
+                    prevBtn.addEventListener("click", () => {
+                        slides.forEach((slide) => {
+                            slide.classList.remove("active")
+                        })
+                        slideIcons.forEach((slideIcons) => {
+                            slideIcons.classList.remove("active")
+                        })
+
+                        slideNumber--;
+                        if(slideNumber < 0){
+                            slideNumber = numberOfSlides - 1;
+                        }
+                        slides[slideNumber].classList.add("active");
+                        slideIcons[slideNumber].classList.add("active");
+                    })
+                </script>
+            </div>       
+                <script>  
+                    // Get the overlay element portfolio"
+                    const modelado3DOverlay = document.getElementById("modelado3D");
+                    const impresion3DOVerlay = document.getElementById("impresion3D");
+                    const edicionVideosOVerlay = document.getElementById("edicionVideos");
+                    const programacionOVerlay = document.getElementById("programacion");
+                    const marketingOVerlay = document.getElementById("marketing");
+                    const arteOVerlay = document.getElementById("arte");
+
+                    const gallery = document.querySelector(".Gallery");
+                    const galleryImages = document.querySelectorAll(".Gallery .Slide .slide img[data-image-index]");
+                    const imageContainer = document.querySelector(".ImageContainer");
+
+                    const images = {
+                        modelado3D: ["img/Modeling3D/A.png", "img/Modeling3D/B.png", "img/Modeling3D/C.png", "img/Modeling3D/D.png", "img/Modeling3D/E.png"],
+                        arte: ["img/Arte/A.jpg", "img/Arte/B.jpg", "img/Arte/C.jpg", "img/Arte/D.jpg", "img/Arte/E.jpg"],
+                        impresion3D: ["img/impresion3D/A.jpg","img/impresion3D/B.jpg","img/impresion3D/C.jpg","img/impresion3D/D.jpg","img/impresion3D/E.jpg"],
+                        programacion: ["img/programacion/A.jpg", "img/programacion/B.jpg", "img/programacion/C.jpg", "img/programacion/D.jpg", "img/programacion/E.jpg"],
+                        marketing: ["img/marketing/A.jpg", "img/marketing/B.jpg", "img/marketing/C.jpg", "img/marketing/D.jpg", "img/marketing/E.jpg"],
+                        edicionVideos: ["img/edicionVideos/A.jpg", "img/edicionVideos/B.jpg", "img/edicionVideos/C.jpg", "img/edicionVideos/D.jpg", "img/edicionVideos/E.jpg"],
+                    };
+
+                    modelado3DOverlay.addEventListener("click", function() {
+                    gallery.style.display = (gallery.style.display === "none" || gallery.style.display === "") ? "flex" : "flex";
+
+                        if (gallery.style.display === "flex") {
+                            // Actualiza las rutas de las imágenes en la galería según el botón que se hace clic
+                            galleryImages.forEach((img, index) => {
+                                img.src = images.modelado3D[index];
+                            });
+                        }
+                    });
+
+                    impresion3DOVerlay.addEventListener("click", function() {
+                    gallery.style.display = (gallery.style.display === "none" || gallery.style.display === "") ? "flex" : "flex";
+
+                        if (gallery.style.display === "flex") {
+                            // Actualiza las rutas de las imágenes en la galería según el botón que se hace clic
+                            galleryImages.forEach((img, index) => {
+                                img.src = images.impresion3D[index];
+                            });
+                        }
+                    });
+
+                    edicionVideosOVerlay.addEventListener("click", function() {
+                    gallery.style.display = (gallery.style.display === "none" || gallery.style.display === "") ? "flex" : "flex";
+
+                        if (gallery.style.display === "flex") {
+                            // Actualiza las rutas de las imágenes en la galería según el botón que se hace clic
+                            galleryImages.forEach((img, index) => {
+                                img.src = images.edicionVideos[index];                            
+                            });
+                        }
+                    });
+                    
+                    programacionOVerlay.addEventListener("click", function() {
+                    gallery.style.display = (gallery.style.display === "none" || gallery.style.display === "") ? "flex" : "flex";
+
+                        if (gallery.style.display === "flex") {
+                            // Actualiza las rutas de las imágenes en la galería según el botón que se hace clic
+                            galleryImages.forEach((img, index) => {
+                                img.src = images.programacion[index];
+                            });
+                        }
+                    });
+
+                    marketingOVerlay.addEventListener("click", function() {
+                    gallery.style.display = (gallery.style.display === "none" || gallery.style.display === "") ? "flex" : "flex";
+
+                        if (gallery.style.display === "flex") {
+                            // Actualiza las rutas de las imágenes en la galería según el botón que se hace clic
+                            galleryImages.forEach((img, index) => {
+                                img.src = images.marketing[index];
+                            });
+                        }
+                    });
+
+                    arteOVerlay.addEventListener("click", function() {
+                    gallery.style.display = (gallery.style.display === "none" || gallery.style.display === "") ? "flex" : "flex";
+
+                        if (gallery.style.display === "flex") {
+                            // Actualiza las rutas de las imágenes en la galería según el botón que se hace clic
+                            galleryImages.forEach((img, index) => {
+                                img.src = images.arte[index];
+                            });
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombre Empresa" id="name" autocomplete="off">
+                    <input type="text" placeholder="Número telefónico" id="tel" autocomplete="off">
+                    <input type="text" placeholder="Dirección de correo" id="Email" autocomplete="off">
+                    <input type="text" placeholder="Solicitud de empleo" id="Asunto" autocomplete="off">
+                    <textarea name="" id="Mensaje" cols="30" rows="10" placeholder="Mensaje" ></textarea>
+                </div>
+                <!-- Datos -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Telefono: <br>(AR) +549 3541 - 628524 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Direccion: <br> Villa Carlos Paz - Cordoba
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-discord"></i>
+                                Discord: <br>PEPA#8329
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: <br>mauropepa1997oficial@gmail.com
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram"></i>
+                                Instagram: <br>
+                                <a href="https://www.instagram.com/mauropepa97/" target="_blank" title="Visitar-mi-Instagram">www.instagram.com/mauropepa97/</a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-linkedin"></i>
+                                Linkedin: <br>
+                                <a href="https://www.linkedin.com/in/mauro-pepa-02b57a194/" target="_blank" title="Visitar-mi-Instagram">www.linkedin.com/in/mauro-pepa-02b57a194/</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="btn" onclick="SendEmail()">
+                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+        <!-- SEND EMAIL -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function SendEmail(){
+
+                let name = document.getElementById("name").value;
+                let email = document.getElementById("Email").value;
+                let contact = document.getElementById("tel").value;
+                let subject = document.getElementById("Asunto").value;
+                let message = document.getElementById("Mensaje").value;
+
+                let body = "Nombre Empresa: " + name + "<br/> Dirección de correo: " + email + "<br/> Numero telefonico: " + contact + "<br/> Asunto: " + subject + "<br/ Mensaje: >" + message;
+
+                Email.send({
+                    SecureToken : "0db0d763-4920-40fa-bc15-8b51cd2ff6ba",
+                    To : 'mauropepacvemail@gmail.com',
+                    From : "mauropepacvemail@gmail.com",
+                    Subject : "Solicitud de trabajo (CV-WebSite)",
+                    Body : body
+                }).then(
+                    message => alert(message)
+                );
+
+            }
+        </script>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
